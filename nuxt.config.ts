@@ -4,8 +4,15 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxt/devtools',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-fonts'
   ],
+  googleFonts: {
+    families: {
+      'Cormorant Garamond': [400, 500, 600, 700]
+    },
+    useStylesheet: true
+  },
   ui: {
     global: true,
     icons: ['heroicons', 'mdi', 'simple-icons', 'ph']
