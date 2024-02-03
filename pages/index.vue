@@ -13,7 +13,7 @@ useSeoMeta({
 
 <template>
   <div class="relative w-full h-screen overflow-hidden">
-    <NuxtImg src="/bg.jpg" class="h-full w-full absolute object-cover z-0" />
+    <NuxtImg src="/bg.jpg" class="h-full w-full absolute object-cover z-0" alt="background image" />
     <div class="z-40 w-full flex flex-col justify-center items-center absolute px-4 py-3 h-full">
       <div class="max-w-xl w-full mx-auto">
         <h1 class="text-2xl text-center font-bold pt-3 text-slate-900">
