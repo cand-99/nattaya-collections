@@ -5,13 +5,17 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/devtools',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxt/image'
   ],
   googleFonts: {
     families: {
-      'Cormorant Garamond': [400, 500, 600, 700]
+      Poppins: [400, 500, 600, 700]
     },
     useStylesheet: true
+  },
+  colorMode: {
+    preference: 'light'
   },
   ui: {
     global: true,

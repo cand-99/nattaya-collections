@@ -1,7 +1,7 @@
 <template>
   <Html lang="id">
     <Body>
-      <div class="font-cormorant-garamond antialiased">
+      <div class="font-poppins antialiased">
         <NuxtPage />
       </div>
     </Body>
