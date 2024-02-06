@@ -49,7 +49,14 @@ useSeoMeta({
           >
             Shopee
           </UButton>
-          <UButton size="lg" block color="gray" :ui="{ rounded: 'rounded-full', font: 'font-bold' }">
+          <UButton
+            to="https://chat.whatsapp.com/F62BNnF27L0LaN4yYVi3qV"
+            target="_blank"
+            size="lg"
+            block
+            color="gray"
+            :ui="{ rounded: 'rounded-full', font: 'font-bold' }"
+          >
             Join Grup Disini
           </UButton>
 
